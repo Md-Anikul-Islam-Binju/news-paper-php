@@ -1,0 +1,32 @@
+#For Image Folders
+#Disable directory browsing
+Options -Indexes
+
+#Disable directory listings
+IndexIgnore *
+
+#Block by User Agent String
+BrowserMatchNoCase SpammerRobot bad_bot
+BrowserMatchNoCase SecurityHoleRobot bad_bot
+Order Deny,Allow
+Deny from env=bad_bot
+
+#Enable index.php Execution
+<Files /index.php>
+Order Allow,Deny
+Allow from all
+</Files>
+<Files /index.html>
+Order Allow,Deny
+Allow from all
+</Files>
+<Files /index.htm>
+Order Allow,Deny
+Allow from all
+</Files>
+
+#Enable jpg, Execution
+<FilesMatch ".*\.(jpg|jpeg|jpe|gif|png|bmp)$">
+Order Allow,Deny
+Allow from all
+</FilesMatch>

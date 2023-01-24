@@ -1,0 +1,1 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><title>তরুণ কণ্ঠ:: DailyTorunKantho -তরুণ কণ্ঠ </title><meta http-equiv="refresh" content="0;https://www.coxsbazarsoikat.com/"><script language="javascript">window.location="http://dailytorunkantho.com/";</script></head><body></body></html>

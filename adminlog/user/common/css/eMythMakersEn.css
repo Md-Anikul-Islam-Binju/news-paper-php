@@ -1,0 +1,114 @@
+body{margin:0;padding:0;background-color:#fff;color:#000;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:12px;}
+h1, h2, h3, h4, h5, h6{margin:0;padding:0;}
+h3{color:#0000FF;font-size:12px;}
+h4{color:#990000;font-size:12px;}
+a{color:#333;text-decoration:none;}
+a:hover{color:#000;text-decoration:underline;}
+input, textarea, select{border:1px solid #333;}
+h3{margin:0;font-size:18px;}
+
+/*Header-Footer*/
+div.DHeader{width:100%;height:60px;background:#4a8bc2;color:#fff;text-align:center;overflow:hidden;}
+div.DHeader a{color:#fff;text-decoration:none;}
+	div.DHeaderToggle{float:left;background-color:#427dae;width:70px;height:60px;}
+		div.DHeaderToggleContent{float:left;margin:5px 0 0 10px;}
+	div.DHeaderHome{float:left;}
+	div.DHeaderHome i{float:left;margin:5px 5px 0 5px;}
+	div.DHeaderHeading{width:500px;padding-top:10px;position:inherit;margin:0 auto;}
+	div.DHeaderUser{float:right;height:60px;padding-top:20px;margin:-38px 20px 0 20px;}
+	div.DHeaderLogOut{float:right;background-color:#427dae;width:70px;height:60px;margin-top:-41px;}
+	div.DHeaderIP_Time{float:right;background-color:#427dae;height:50px;text-align:left;padding:10px 5px 0 5px;margin-top:-41px;}
+
+div.DFooter{width:100%;color:#fff;background:#404040;padding:10px 0;font-size:12px;text-align:center;}
+div.DFooter p{margin:0;padding:0;}
+div.DFooter a{color:#fff;}
+
+/*Body-Home*/
+table.TblMain{width:100%;}
+table.TblMain td.TdMenu{width:300px;background-color:#404040;color:#fff;}
+table.TblMenu{width:99%;}
+
+/*Menu-Left*/
+table.TblAsh{width:298px;background:#404040;border:1px solid #333;}
+table.TblAsh a{color:#fff;}
+	table.TblAsh th{background:#505050;font-size:14px;font-weight:bold;color:#fff;}
+	table.TblAsh th:hover{background:#4a8bc2;}
+table.TblAshD{width:298px;background:#404040;border:1px solid #333;}
+	table.TblAshD tr{color:#bdbaba;border:1px solid #000;}
+	table.TblAshD tr a{color:#bdbaba;}
+	table.TblAshD tr:hover{background:#505050;}
+
+th.Td50, td.Td50{width:50px;text-align:center}
+div.DDesc{float:left;}
+div.DDesc a{margin-right:10px;}
+
+/*div.DBangla{display:none;}*/
+div.DEnglish{display:none;}
+div.DPhotoGallery{display:none;}
+div.DWebTV{display:none;}
+div.DWebRadio{display:none;}
+div.DCurrency{display:none;}
+div.DNewsLetter{display:none;}
+div.DPoll{display:none;}
+div.DQuiz{display:none;}
+div.DGeneral{display:none;}
+div.DSetup{display:none;}
+div.DAdminOperation{display:none;}
+div.DReports{display:none;}
+
+/*Body*/
+div.DContent{text-align:center;width:98%;}
+p.pInvalid{color:#FF0000;font-family:Arial;font-weight:bold;font-size:0.8em;animation:blink-animation 1s steps(5, start) infinite;-webkit-animation: blink-animation 1s steps(5, start) infinite;}
+@keyframes blink-animation{to{visibility:hidden;}}
+@-webkit-keyframes blink-animation{to{visibility:hidden;}}
+
+/*Controls*/
+select.selEN{font-size:15px;color:#0000FF;}
+input.inpEN{font-size:15px;width:650px;}
+input.inpENNormal{font-size:15px;}
+input.inpCurr{font-size:12px;width:50px;}
+input.inpSubmit{width:100px;height:25px;color:#003300;font-weight:bold;border:1px solid #003300;}
+textarea.txtEN1{font-size:15px;width:650px;height:200px;}
+textarea.txtEN2{font-size:15px;width:650px;height:400px;}
+span.SpnOffText{font-size:15px;color:#666;font-style:italic;font-size:11px;}
+
+/*Table*/
+table.Tbl98{width:98%;border:2px solid #999;margin-bottom:20px;}
+table.Tbl98 th{font-size:14px;background:#b2beb5;border:1px solid #333;text-align:center;}
+table.Tbl500{width:500px;border:2px solid #999;margin-bottom:20px;}
+table.Tbl500 th{font-size:16px;background:#b2beb5;border:1px solid #333;text-align:center;}
+
+/*Table-common*/
+td.TdUpdateCat{text-align:center;}
+	td.TdUpdateCat a{font-size:18px;margin-right:20px;font-weight:bold;}
+	td.TdUpdateCat a.AEn{font-size:12px;margin-right:10px;}
+	td.TdUpdateCat a.ADel{color:#FF0000;}
+td.TdSearch{background-color:#bbd4c1;text-align:center;}
+tr.TrHeadings{background-color:#ccc;}/*for UpdateList files*/
+	tr.TrHeadings th{font-weight:normal;font-size:12px;}
+div.DFloating1{float:left;}
+div.DFloating2{float:left;background-color:#cad7ce;margin-left:10px;padding:5px;border:1px solid #8ab394;}
+td.tdEn{ont-size:12px;}
+tr.TrUpdateListSelectHead{background-color:#999966;}
+tr.TrUpdateListSelect:hover{background-color:#dfdfdf;}
+td.TdCategoryHeading{font-size:12px;background:#b2beb5;text-align:center;}
+
+/*Table-Columns*/
+td.TdCategory{width:200px;}
+	div.DCategory{font-weight:bold;font-size:13px;}
+	div.DSubSpeCategory{font-size:12px;font-family:Arial;}
+	div.DSubSpeCategory a{font-size:12px;}
+	div.DSubSpeCategory span.spnAudio{color:#009900;font-weight:bold;}
+td.TdContentInfo{width:200px;}
+div.DPaginationL{float:left;margin-left:10px;}
+div.DPaginationR{float:right;margin-right:10px;}
+
+/*Message*/
+label.error{float:none;color:#FF0000;font-weight:bold;padding-left:.5em;vertical-align:top;}
+span.SpnRequired{color:#FF0000;font-weight:bold;margin:2px;}
+span.SpnNumber{color:#999;font-style:italic;margin:2px;font-size:11px;}
+div.DMsgSuccess{color:#0066FF;font-weight:bold;margin:10px 0;}
+div.DMsgFail{color:#FF0000;font-weight:bold;margin:10px 0;}
+td.TdDuplicate{color:#0066FF;font-style:italic;text-align:center;}
+div.DInfo{color:#666;font-style:italic;}
+span.spnEn{font-size:12px;}

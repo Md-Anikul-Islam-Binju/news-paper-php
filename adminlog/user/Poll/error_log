@@ -1,0 +1,3 @@
+[23-Jan-2019 13:57:32 America/New_York] PHP Fatal error:  Call to undefined function fFormatDate() in /home/prodaviv/dailytorunkantho.com/adminlog/user/Poll/pollDetailsInsertAction.php on line 30
+[23-Jan-2019 13:57:46 America/New_York] PHP Fatal error:  Call to undefined function fFormatDate() in /home/prodaviv/dailytorunkantho.com/adminlog/user/Poll/pollDetailsInsertAction.php on line 30
+[23-Jan-2019 13:59:54 America/New_York] PHP Fatal error:  Call to undefined function fFormatDate() in /home/prodaviv/dailytorunkantho.com/adminlog/user/Poll/pollDetailsInsertAction.php on line 30

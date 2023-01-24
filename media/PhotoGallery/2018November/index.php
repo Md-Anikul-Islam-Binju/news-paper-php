@@ -1,0 +1,1 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><title>কক্সবাজার সৈকত :: Coxsbazar oikat - কক্সবাজারের খবর</title><meta http-equiv="refresh" content="0;https://www.coxsbazarsoikat.com/"><script language="javascript">window.location="https://www.coxsbazarsoikat.com/";</script></head><body></body></html>

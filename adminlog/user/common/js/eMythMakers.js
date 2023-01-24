@@ -1,0 +1,15 @@
+$(document).ready(function(){
+	$('.ABangla').click(function(){$(".DBangla").slideToggle();});
+	$('.AEnglish').click(function(){$(".DEnglish").slideToggle();});
+	$('.APhotoGallery').click(function(){$(".DPhotoGallery").slideToggle();});
+	$('.AWebTV').click(function(){$(".DWebTV").slideToggle();});
+	$('.AWebRadio').click(function(){$(".DWebRadio").slideToggle();});
+	$('.ACurrency').click(function(){$(".DCurrency").slideToggle();});
+	$('.ANewsLetter').click(function(){$(".DNewsLetter").slideToggle();});
+	$('.APoll').click(function(){$(".DPoll").slideToggle();});
+	$('.AQuiz').click(function(){$(".DQuiz").slideToggle();});
+	$('.AGeneral').click(function(){$(".DGeneral").slideToggle();});
+	$('.ASetup').click(function(){$(".DSetup").slideToggle();});
+	$('.AAdminOperation').click(function(){$(".DAdminOperation").slideToggle();});
+	$('.AReports').click(function(){$(".DReports").slideToggle();});
+});

@@ -1,0 +1,31 @@
+#Disable directory browsing
+Options -Indexes
+
+#Disable directory listings
+IndexIgnore *
+
+#Block by User Agent String
+BrowserMatchNoCase SpammerRobot bad_bot
+BrowserMatchNoCase SecurityHoleRobot bad_bot
+Order Deny,Allow
+Deny from env=bad_bot
+
+#Disable PHP, html, htm, js Execution
+#<Files *.php>deny from all</Files>
+#<Files *.html>deny from all</Files>
+#<Files *.htm>deny from all</Files>
+#<Files *.js>deny from all</Files>
+
+
+#Enable index.php Execution
+<Files /index.php>
+Order Allow,Deny
+Allow from all
+</Files>
+
+#Enable css, jpg, Execution
+<FilesMatch ".*\.(css|jpg)$">
+Order Allow,Deny
+Allow from all
+</FilesMatch>
+

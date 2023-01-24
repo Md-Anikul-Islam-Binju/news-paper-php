@@ -1,0 +1,54 @@
+https://www.jqueryscript.net/time-clock/Datetime-Picker-jQuery-Moment.html
+
+Demo: https://www.jqueryscript.net/demo/Datetime-Picker-jQuery-Moment
+
+
+
+How to use it:
+
+1. Import the necessary jQuery and moment.js libraries into your html document.
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/moment-with-locales.min.js"></script>
+
+
+2. Import the Datetime Picker's JavaScript and Stylesheet into the document.
+<link href="css/datetimepicker.css" rel="stylesheet">
+<script src="js/datetimepicker.js"></script>
+
+
+3. Create a DIV container and a hidden input for the datetime picker.
+<div id="picker"> </div>
+<input type="hidden" id="result" value="">
+
+
+4. Enable the datetime picker.
+$('#picker').dateTimePicker();
+
+
+5. Set the date format.
+$('#picker').dateTimePicker({
+  dateFormat: "YYYY-MM-DD HH:mm"
+});
+
+
+6. Change the default language.
+$('#picker').dateTimePicker({
+  locale: 'en'
+});
+
+
+7. Enable/disable the time picker.
+$('#picker').dateTimePicker({
+  showTime: true
+});
+
+
+8. More configuration options.
+$('#picker').dateTimePicker({
+  selectData: "now",
+  positionShift: { top: 20, left: 0},
+  title: "Select Date and Time",
+  buttonTitle: "Select"
+});
+
+
